@@ -20,7 +20,7 @@ public class AdminMessageController {
     @Autowired
     private MessageService messageService;
     @Autowired
-    private MessageVoService messageVoService;
+    private MessageVoService messageVoService ;
 
     @GetMapping("/message_manage")
     public String message_manage(Model model){
